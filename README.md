@@ -13,7 +13,7 @@ The project combines rule-based detection, machine learning anomaly detection, t
 - **Principal Component Analysis (PCA):** Supports dimensionality reduction and anomaly analysis.
 - **Threat Intelligence Integration:** Enriches suspicious IP addresses using AbuseIPDB, AlienVault OTX, VirusTotal, and IPinfo.
 - **AI-Assisted Reporting:** Uses Gemini to generate readable investigation summaries.
-- **Automated Incident Reporting:** Supports email-based incident notifications.
+
 
 ## Technologies Used
 
@@ -26,7 +26,7 @@ The project combines rule-based detection, machine learning anomaly detection, t
 | Threat Intelligence | AbuseIPDB, AlienVault OTX, VirusTotal, IPinfo |
 | Generative AI | Google Gemini |
 | Interface / Demonstration | Gradio |
-| Reporting | SMTP / Email integration |
+| Reporting | 
 
 ## Detection Components
 
@@ -79,10 +79,6 @@ Configure the required API credentials using environment variables. Refer to `.e
 The project integrates with external threat intelligence and AI services. API access and credentials may be required for their respective features.
 
 Never commit API keys, passwords, or private log data.
-
-## Project Status
-
-Academic engineering project developed as part of a B.Tech in Artificial Intelligence and Machine Learning.
 
 ## Disclaimer
 
