@@ -1,8 +1,3 @@
-# cyber_hunter_updated.py
-# Cyber-Hunter — updated anomaly detector (Hybrid: IsolationForest + LOF + PCA)
-# Requirements:
-#   pip install numpy pandas scikit-learn gradio requests
-
 import re
 import urllib.parse
 import requests
@@ -25,14 +20,14 @@ from sklearn.feature_extraction.text import TfidfVectorizer
 # UI
 import gradio as gr
 
-# Optional: Gemini AI summarization (keep None unless you set your key)
+# Optional: Gemini AI summarization 
 try:
     import google.generativeai as genai
 except Exception:
     genai = None
 
 logging.basicConfig(level=logging.INFO, format="%(asctime)s [%(levelname)s] %(message)s")
-logger = logging.getLogger("CyberHunterUpdated")
+logger = logging.getLogger("CyberHunter")
 
 # ==========================
 # API KEYS (set via env vars or config)
