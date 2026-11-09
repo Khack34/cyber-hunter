@@ -33,11 +33,11 @@ logger = logging.getLogger("CyberHunter")
 # API KEYS (set via env vars or config)
 # ==========================
 
-GEMINI_API_KEY = "your_api_key"
-ABUSEIPDB_KEY  = "your_api_key"
-VT_API_KEY     = "your_api_key"
-OTX_API_KEY    = "your_api_key"
-IPINFO_API_KEY = "your_api_key"
+GEMINI_API_KEY = os.getenv("GEMINI_API_KEY")
+ABUSEIPDB_KEY = os.getenv("ABUSEIPDB_KEY")
+VT_API_KEY = os.getenv("VT_API_KEY")
+OTX_API_KEY = os.getenv("OTX_API_KEY")
+IPINFO_API_KEY = os.getenv("IPINFO_API_KEY")
 
 if GEMINI_API_KEY and genai:
     try:
