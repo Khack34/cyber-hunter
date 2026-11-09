@@ -45,10 +45,6 @@ The project combines rule-based detection, machine learning anomaly detection, t
 4. Enrich suspicious IP addresses using threat intelligence services.
 5. Generate investigation summaries.
 
-## Project Structure
-
-Update this section to reflect the actual repository directory structure.
-
 ## Installation
 
 Clone the repository:
