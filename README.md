@@ -26,7 +26,6 @@ The project combines rule-based detection, machine learning anomaly detection, t
 | Threat Intelligence | AbuseIPDB, AlienVault OTX, VirusTotal, IPinfo |
 | Generative AI | Google Gemini |
 | Interface / Demonstration | Gradio |
-| Reporting | 
 
 ## Detection Components
 
